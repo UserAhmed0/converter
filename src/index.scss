@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 body {
-  background-color: #f9f2ed;
+  background-color: #7a573e;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
   grid-column-gap: 30px;
   width: 800px;
   margin: 100px auto;
-  background-color: #fff;
+  background-color: #9b9494;
   padding: 30px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
@@ -33,9 +33,20 @@ body {
     margin-top: 20px;
     border-radius: 5px;
     width: 100%;
+    background-color: #a8a4a4;
   }
 }
-
+.p {
+  text-align: center;
+}
+.emptyblock {
+  width: 200px;
+  background-color: #a8a4a4;
+  margin-top: 80px;
+  margin-left: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
 .currencies {
   display: flex;
   list-style: none;
@@ -62,8 +73,8 @@ body {
     }
 
     &.active {
-      background-color: #16b67f;
-      color: #fff;
+      background-color: #b1c2bc;
+      color: #291f1f;
     }
 
     &:last-of-type {
@@ -72,10 +83,13 @@ body {
       flex: 0 0 50px;
       border-right: 0;
 
-      svg {
-        width: 16px;
-        height: 16px;
-      }
+  
     }
   }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    
+    -webkit-appearance: none;
+    margin: 0;  
 }
