@@ -10,7 +10,7 @@ function App() {
     if(fromCurrency === 'RUB'){
          price = value / 90;
     }else if(fromCurrency === 'EUR'){
-         price = value / 98;
+         price = (value / 98) * 106;
     }
     setFromPrice(value);
     const div = document.querySelector('.emptyblock');
